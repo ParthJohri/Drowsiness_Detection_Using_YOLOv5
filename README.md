@@ -1,4 +1,4 @@
-😴 # Drowsiness Detection Using YOLOv5 🚗
+# 😴 Drowsiness Detection Using YOLOv5 🚗
 
 ## Overview
 This project utilizes the YOLOv5 architecture to develop an advanced drowsiness detection system. The model is designed to identify signs of driver drowsiness, such as closed eyes, yawning, and head movements, using a custom dataset. The goal is to enhance driver safety by providing timely alerts when drowsiness is detected.
