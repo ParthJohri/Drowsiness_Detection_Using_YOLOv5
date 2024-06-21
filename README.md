@@ -36,6 +36,10 @@ The YOLOv5 model was trained and tested over 25 epochs, showing exceptional resu
     </td>
   </tr>
   <tr>
+     <td style="text-align: center;">
+      <img src="https://github.com/ParthJohri/Drowsiness_Detection_Using_YOLOv5/blob/main/results/F1_curve.png" alt="F1 Curve" style="width: 400px;">
+      <br>F1 Curve
+    </td>
     <td style="text-align: center;">
       <img src="https://github.com/ParthJohri/Drowsiness_Detection_Using_YOLOv5/blob/main/results/confusion_matrix.png" alt="Confusion Matrix" style="width: 400px;">
       <br>Confusion Matrix
@@ -58,11 +62,12 @@ These outstanding results make YOLOv5 a promising model for real-time drowsiness
    ```sh
    cd Drowsiness_Detection_Using_YOLOv5
    ```
-3. Run the real-time.py:
+3. Train your model on the custom dataset using colab notebook given, in the notebook directory.
+
+4. Before running the model, make sure you have the yolov5 installed, after which run the real-time.py:
    ```sh
    python3 real_time.py
    ```
-4. [Optional] Train your model on the custom dataset using colab notebook given, in the notebook directory.
    
 ## Usage
 1. Prepare your dataset with labeled images for training and testing.
